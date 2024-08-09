@@ -9,12 +9,12 @@ const user = {
     name: 'Khan',
     age: 34
 }
-app.get("/", (req, res) => {
+app.get("#/", (req, res) => {
     res.send("hello");
 
 })
 
-app.get("/user", (req, res) => {
+app.get("#/user", (req, res) => {
     res.json(user);
 
 })
